@@ -9,4 +9,9 @@ namespace lf {
 	}
 }
 
+#define IS_HEADER_ONLY
+#ifdef IS_HEADER_ONLY
+#include "lf_utils.cpp"
+#endif
+
 #endif
