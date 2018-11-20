@@ -1,4 +1,4 @@
-#ifdef LF_UTILS_H
+#ifndef LF_UTILS_H
 #define LF_UTILS_H
 
 #include <string>
