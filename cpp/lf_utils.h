@@ -5,7 +5,11 @@
 
 namespace lf {
 	namespace str {
-		bool endsWith (std::string const &fullString, std::string const &ending);
+		bool endswith (const std::string &fullString, const std::string &ending);
+	}
+
+	namespace path {
+		std::string base_name(const std::string &path, bool keep_extension = true);
 	}
 }
 
